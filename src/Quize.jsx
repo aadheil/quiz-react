@@ -67,7 +67,7 @@ const handleplayagain=()=>{
   return (
     <div className='w-100 d-flex justify-content-center align-items-center' style={{height:'100vh'}}>
         {qcount==1?
-            <div className='bg-light flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
+            <div className='bg-transparent flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
      
      <p className='ms-5 mt-3'>{qcount}/10</p>
      <h4 className='hii text-center mt-5 ms-3'>{questions[1]}</h4>
@@ -111,7 +111,7 @@ const handleplayagain=()=>{
 
 
 qcount==2?
-    <div className='bg-light flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
+    <div className='bg-transparent flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
      
      <p className='ms-5 mt-3'>{qcount}/10</p>
      <h4 className='hii text-center mt-5 ms-3'>{questions[2]}</h4>
@@ -154,7 +154,7 @@ qcount==2?
     
     :
 qcount==3?
-    <div className='bg-light flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
+    <div className='bg-transparent flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
      
      <p className='ms-5 mt-3'>{qcount}/10</p>
      <h4 className='hii text-center mt-5 ms-3'>{questions[3]}</h4>
@@ -197,7 +197,7 @@ qcount==3?
 
     :
 qcount==4?
-    <div className='bg-light flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
+    <div className='bg-transparent flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
      
      <p className='ms-5 mt-3'>{qcount}/10</p>
      <h4 className='hii text-center mt-5 ms-3'>{questions[4]}</h4>
@@ -240,7 +240,7 @@ qcount==4?
 
     :
 qcount==5?
-    <div className='bg-light flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
+    <div className='bg-transparent flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
      
      <p className='ms-5 mt-3'>{qcount}/10</p>
      <h4 className='hii text-center mt-5 ms-3'>{questions[5]}</h4>
@@ -283,7 +283,7 @@ qcount==5?
 
     :
 qcount==6?
-    <div className='bg-light flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
+    <div className='bg-transparent flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
      
      <p className='ms-5 mt-3'>{qcount}/10</p>
      <h4 className='hii text-center mt-5 ms-3'>{questions[6]}</h4>
@@ -326,7 +326,7 @@ qcount==6?
 
     :
 qcount==7?
-    <div className='bg-light flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
+    <div className='bg-transparent flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
      
      <p className='ms-5 mt-3'>{qcount}/10</p>
      <h4 className='hii text-center mt-5 ms-3'>{questions[7]}</h4>
@@ -369,7 +369,7 @@ qcount==7?
 
 :
 qcount==8?
-<div className='bg-light flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
+<div className='bg-transparent flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
      
      <p className='ms-5 mt-3'>{qcount}/10</p>
      <h4 className='hii text-center mt-5 ms-3'>{questions[8]}</h4>
@@ -412,7 +412,7 @@ qcount==8?
 
 :
 qcount==9?
-<div className='bg-light flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
+<div className='bg-transparent flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
      
 <p className='ms-5 mt-3'>{qcount}/10</p>
 <h4 className='hii text-center mt-5 ms-3'>{questions[9]}</h4>
@@ -455,7 +455,7 @@ qcount==9?
 
 :
 qcount==10?
-<div className='bg-light flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
+<div className='bg-transparent flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
      
      <p className='ms-5 mt-3'>{qcount}/10</p>
      <h4 className='hii text-center mt-5 ms-3'>{questions[10]}</h4>
@@ -497,7 +497,7 @@ qcount==10?
      </div>
 
 :
-<div className='bg-light flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
+<div className='bg-transparent flex-column shadow rounded justify-content-center align-items-center' style={{width:'620px',height:'570px'}}>
      
     <h4 className='text-center mt-5'>Quiz Over</h4>
     <h1 className='text-center mt-5'>Score: {score}/100</h1>
